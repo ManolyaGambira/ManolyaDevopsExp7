@@ -5,6 +5,6 @@ WORKDIR /app
 #Copy the current directory contents into the container at /app
 COPY . .
 #compile the java program
-RUN javac samplefile.java
+RUN javac -d . samplefile.java
 #Command to run the program
 CMD ["java", "Docker.samplefile"]
