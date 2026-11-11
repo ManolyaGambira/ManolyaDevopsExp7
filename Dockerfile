@@ -7,4 +7,4 @@ COPY . .
 #compile the java program
 RUN javac samplefile.java
 #Command to run the program
-CMD ["java", "samplefile"]
+CMD ["java", "Docker.samplefile"]
