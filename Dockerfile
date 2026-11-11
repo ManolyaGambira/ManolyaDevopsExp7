@@ -1,5 +1,5 @@
 #Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:25-jre
 #set the working directory in the container
 WORKDIR /app
 #Copy the current directory contents into the container at /app
